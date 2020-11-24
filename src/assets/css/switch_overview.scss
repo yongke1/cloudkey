@@ -1,0 +1,27 @@
+.tooltip-box {
+  justify-content: space-between;
+  .item {
+    flex: 0.3;
+    .item-title {
+      margin-bottom: 20px;
+      color: #999999;
+    }
+  }
+  .instruction {
+    .instruction-box {
+      margin-bottom: 10px;
+      white-space: nowrap;
+      span{
+        margin-left: 10px;
+        color: #666666;
+      }
+    }
+    .instruction-box:last-child{
+      margin: 0;
+    }
+  }
+}
+
+
+
+

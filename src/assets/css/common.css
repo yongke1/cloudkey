@@ -1,0 +1,12 @@
+.switch-tooltip,
+.rate-trend-tooltip {
+  background: #ffffff;
+  box-shadow: 1px 4px 16px 0px rgba(164, 168, 182, 0.6);
+  border-radius: 3px;
+  padding: 10px 10px 16px 10px;
+  color: #666666;
+}
+.el-tooltip__popper.is-light.switch-tooltip,
+.el-tooltip__popper.is-light.rate-trend-tooltip {
+  border: none;
+}
